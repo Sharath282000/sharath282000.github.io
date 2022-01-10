@@ -397,14 +397,14 @@ header .navbars ul li a:hover{
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  color:crimson;
+  color:white;
   font-size: 14px;
   top:50%;
   cursor: pointer;
   margin-top: -20px;
   text-align: center;
   line-height: 40px;
-  font-weight: 300;
+  font-weight: bold;
   
 }
 .slider .left-slide:hover,.slider .right-slide:hover{
