@@ -423,7 +423,6 @@ header .navbars ul li a:hover{
   position: absolute;
   height: 40px;
   width: 40px;
-  background-color: crimson;
   border-radius: 50%;
   color:#ffffff;
   font-size: 20px;
@@ -436,7 +435,6 @@ header .navbars ul li a:hover{
 }
 .slider .left-slide:hover,.slider .right-slide:hover{
  box-shadow: 0px 0px 10px black;
- background-color: crimson;
 }
 
 .slider .left-slide{
