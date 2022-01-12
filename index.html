@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -71,7 +72,7 @@
 
 <h1 class="heading"> <span>about</span> me </h1>
 
-<div class="row">
+<div class="row" data-aos="fade-right" data-aos-delay="150">
 
     <div class="info">
         <h3> <span> name : </span> sharath </h3>
@@ -81,7 +82,8 @@
         <a href="data/Sharath's Resume (1).pdf" download="Sharath - Resume.pdf"><button class="btns"> download resume <i class="fas fa-download"></i> </button></a>
     </div>
 
-    <div class="counter">
+    <div class="counter" data-aos="fade-up"
+     data-aos-duration="3000">
 
         <div class="box">
             <span>95%</span>
@@ -116,7 +118,9 @@
 
 <h1 class="heading"> my <span>education</span> </h1>
 
-<div class="box-container">
+<div class="box-container" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
@@ -167,7 +171,9 @@
 
  <section id="projects">
     <h1 class="heading"> my <span>projects</span> </h1>
-    <div class="slider">
+    <div class="slider" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <div class="slider-items">
             <div  class="item active">
                <img src="images/Sai saravana construction screenshot.jpg" />
@@ -213,7 +219,9 @@
 
 <h1 class="heading"> <span>contact</span> me </h1>
 
-<div class="row">
+<div class="row" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
     <div class="content">
 
@@ -267,9 +275,15 @@
 <!-- jquery cdn link  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
+<script>
+    AOS.init({duration:800,
+      offset:150,
+    });
+</script>
 
 </body>
 </html>
